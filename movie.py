@@ -12,6 +12,7 @@ class movie:
         arr = [["S"]*co for _ in range(ro)]
         
     def show_seat(self):
+        print("Cinema : ")
         print(" ",end="")
         for i in range(cols):
                 print(" ",i+1,end="")
